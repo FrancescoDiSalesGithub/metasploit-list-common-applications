@@ -31,3 +31,4 @@ create table vulnerabilities.exploit_operating_system
 
 );
 
+alter table vulnerabilities.vulnerabilities.exploit  add column port integer;
