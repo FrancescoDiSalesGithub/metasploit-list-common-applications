@@ -16,7 +16,6 @@ primary key(id)
 create table vulnerabilities.operating_system
 (
 	osid serial,
-	exploitid integer,
 	name varchar
 
 );
